@@ -119,10 +119,10 @@ int main()
     int a,b,c;
     cout<<"Enter 3 marks : ";
     cin>>a>>b>>c;
-    if(a<b && a<c){
+    if(a<=b && a<=c){
         cout<<a<<" is the least marks obtained";
     }
-    else if(b<a && b<c){
+    else if(b<=a && b<=c){
         cout<<b<<" is the least marks obtained";
     }
     else{
